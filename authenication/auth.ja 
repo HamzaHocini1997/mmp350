@@ -5,7 +5,7 @@ const loginMessage = document.getElementById("login-message")
 
 loginButton.onclick =function() {};
 console.log(loginEmail.value, loginPassword.value);
- loginMessage.textContent
+ loginMessage.textContent = "You logged in" 
 
 "login-password"
 "login-button"
